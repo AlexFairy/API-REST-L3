@@ -24,7 +24,7 @@ from datetime import datetime
 
 #2
 app_hw3 = Flask(__name__)
-app_hw3.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:Bebop1216!@localhost/gym_db'
+app_hw3.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:REMOVEDPASSWORD@localhost/gym_db'
 db = SQLAlchemy(app_hw3)  # This will be used for the ORM model
 
 #3
